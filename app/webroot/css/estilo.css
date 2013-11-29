@@ -1,0 +1,19 @@
+* {
+	margin:0;
+	padding:0px;
+}
+
+html { height: 100% }
+      body { height: 100%; margin: 0; padding: 0 }
+      #map-canvas {  height: 350px;
+ width: 600px; }
+
+#container{
+	padding: 10px;
+}
+ h1{
+ 	font-size: 2em;
+ }
+ #firstCss{
+ 	margin-top: 1%;
+ }

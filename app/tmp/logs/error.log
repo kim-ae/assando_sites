@@ -313,3 +313,963 @@ Request URL: /assando_sites/css/estilo.css
 Stack Trace:
 #0 C:\wamp\www\assando_sites\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
+2013-11-28 00:42:57 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /assando_sites/css/estilo.css
+Stack Trace:
+#0 C:\wamp\www\assando_sites\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-28 00:43:10 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /assando_sites/css/estilo.css
+Stack Trace:
+#0 C:\wamp\www\assando_sites\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-28 01:07:25 Error: Fatal Error (4): syntax error, unexpected 'if' (T_IF), expecting ',' or ';' in [C:\wamp\www\assando_sites\app\View\Elements\menu.ctp, line 8]
+2013-11-28 01:07:25 Error: [FatalErrorException] syntax error, unexpected 'if' (T_IF), expecting ',' or ';'
+Request URL: /assando_sites/
+Stack Trace:
+#0 C:\wamp\www\assando_sites\lib\Cake\Error\ErrorHandler.php(205): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\wamp\www\ass...', 8)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\wamp\www\ass...', 8, Array)
+#2 C:\wamp\www\assando_sites\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\wamp\www\ass...', 8, Array)
+#3 C:\wamp\www\assando_sites\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-11-28 01:07:25 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /assando_sites/css/estilo.css
+Stack Trace:
+#0 C:\wamp\www\assando_sites\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-28 01:07:25 Error: Fatal Error (4): syntax error, unexpected 'if' (T_IF), expecting ',' or ';' in [C:\wamp\www\assando_sites\app\View\Elements\menu.ctp, line 8]
+2013-11-28 01:07:25 Error: [FatalErrorException] syntax error, unexpected 'if' (T_IF), expecting ',' or ';'
+Request URL: /assando_sites/css/estilo.css
+Stack Trace:
+#0 C:\wamp\www\assando_sites\lib\Cake\Error\ErrorHandler.php(205): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\wamp\www\ass...', 8)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\wamp\www\ass...', 8, Array)
+#2 C:\wamp\www\assando_sites\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\wamp\www\ass...', 8, Array)
+#3 C:\wamp\www\assando_sites\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-11-28 01:07:41 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /assando_sites/css/estilo.css
+Stack Trace:
+#0 C:\wamp\www\assando_sites\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-28 01:08:01 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /assando_sites/css/estilo.css
+Stack Trace:
+#0 C:\wamp\www\assando_sites\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-28 01:08:03 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /assando_sites/css/estilo.css
+Stack Trace:
+#0 C:\wamp\www\assando_sites\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-28 01:08:05 Error: [MissingViewException] View file "C:\wamp\www\assando_sites\app\View\Pages\evento.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'C:\\wamp\\www\\assando_sites\\app\\View\\Pages\\evento.ctp',
+)
+Request URL: /assando_sites/evento
+Stack Trace:
+#0 C:\wamp\www\assando_sites\lib\Cake\View\View.php(459): View->_getViewFileName('evento')
+#1 C:\wamp\www\assando_sites\lib\Cake\Controller\Controller.php(952): View->render('evento', NULL)
+#2 C:\wamp\www\assando_sites\app\Controller\PagesController.php(70): Controller->render('evento')
+#3 [internal function]: PagesController->display('evento')
+#4 C:\wamp\www\assando_sites\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 C:\wamp\www\assando_sites\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#6 C:\wamp\www\assando_sites\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#7 C:\wamp\www\assando_sites\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2013-11-28 01:08:05 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /assando_sites/css/estilo.css
+Stack Trace:
+#0 C:\wamp\www\assando_sites\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-28 01:08:53 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /assando_sites/css/estilo.css
+Stack Trace:
+#0 C:\wamp\www\assando_sites\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-28 01:08:54 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /assando_sites/css/estilo.css
+Stack Trace:
+#0 C:\wamp\www\assando_sites\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-28 01:19:12 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /assando_sites/css/estilo.css
+Stack Trace:
+#0 C:\wamp\www\assando_sites\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-28 01:19:18 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /assando_sites/css/estilo.css
+Stack Trace:
+#0 C:\wamp\www\assando_sites\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-28 01:19:21 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /assando_sites/css/estilo.css
+Stack Trace:
+#0 C:\wamp\www\assando_sites\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-28 01:19:21 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /assando_sites/css/estilo.css
+Stack Trace:
+#0 C:\wamp\www\assando_sites\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-28 01:19:21 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /assando_sites/css/estilo.css
+Stack Trace:
+#0 C:\wamp\www\assando_sites\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-28 01:19:24 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /assando_sites/css/estilo.css
+Stack Trace:
+#0 C:\wamp\www\assando_sites\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-28 01:20:13 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /assando_sites/css/estilo.css
+Stack Trace:
+#0 C:\wamp\www\assando_sites\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-28 01:20:14 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /assando_sites/css/estilo.css
+Stack Trace:
+#0 C:\wamp\www\assando_sites\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-28 01:22:15 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /assando_sites/css/estilo.css
+Stack Trace:
+#0 C:\wamp\www\assando_sites\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-28 01:22:16 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /assando_sites/css/estilo.css
+Stack Trace:
+#0 C:\wamp\www\assando_sites\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-28 01:22:17 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /assando_sites/css/estilo.css
+Stack Trace:
+#0 C:\wamp\www\assando_sites\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-28 01:22:17 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /assando_sites/css/estilo.css
+Stack Trace:
+#0 C:\wamp\www\assando_sites\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-28 01:22:18 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /assando_sites/css/estilo.css
+Stack Trace:
+#0 C:\wamp\www\assando_sites\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-28 01:23:08 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /assando_sites/css/estilo.css
+Stack Trace:
+#0 C:\wamp\www\assando_sites\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-28 01:23:08 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /assando_sites/css/estilo.css
+Stack Trace:
+#0 C:\wamp\www\assando_sites\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-28 01:23:09 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /assando_sites/css/estilo.css
+Stack Trace:
+#0 C:\wamp\www\assando_sites\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-28 01:23:53 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /assando_sites/css/estilo.css
+Stack Trace:
+#0 C:\wamp\www\assando_sites\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-28 01:23:53 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /assando_sites/css/estilo.css
+Stack Trace:
+#0 C:\wamp\www\assando_sites\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-28 01:24:36 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /assando_sites/css/estilo.css
+Stack Trace:
+#0 C:\wamp\www\assando_sites\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-28 01:24:36 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /assando_sites/css/estilo.css
+Stack Trace:
+#0 C:\wamp\www\assando_sites\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-28 01:25:51 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /assando_sites/css/estilo.css
+Stack Trace:
+#0 C:\wamp\www\assando_sites\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-28 01:25:55 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /assando_sites/css/estilo.css
+Stack Trace:
+#0 C:\wamp\www\assando_sites\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-28 01:25:56 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /assando_sites/css/estilo.css
+Stack Trace:
+#0 C:\wamp\www\assando_sites\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-28 01:25:57 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /assando_sites/css/estilo.css
+Stack Trace:
+#0 C:\wamp\www\assando_sites\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-28 01:26:25 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /assando_sites/css/estilo.css
+Stack Trace:
+#0 C:\wamp\www\assando_sites\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-28 01:26:27 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /assando_sites/css/estilo.css
+Stack Trace:
+#0 C:\wamp\www\assando_sites\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-28 01:26:27 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /assando_sites/css/estilo.css
+Stack Trace:
+#0 C:\wamp\www\assando_sites\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-28 01:27:43 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /assando_sites/css/estilo.css
+Stack Trace:
+#0 C:\wamp\www\assando_sites\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-28 01:27:51 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /assando_sites/css/estilo.css
+Stack Trace:
+#0 C:\wamp\www\assando_sites\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-28 01:28:06 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /assando_sites/css/estilo.css
+Stack Trace:
+#0 C:\wamp\www\assando_sites\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-28 01:28:11 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /assando_sites/css/estilo.css
+Stack Trace:
+#0 C:\wamp\www\assando_sites\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-28 01:28:57 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /assando_sites/css/estilo.css
+Stack Trace:
+#0 C:\wamp\www\assando_sites\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-28 01:29:11 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /assando_sites/css/estilo.css
+Stack Trace:
+#0 C:\wamp\www\assando_sites\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-28 01:33:30 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /assando_sites/css/estilo.css
+Stack Trace:
+#0 C:\wamp\www\assando_sites\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-28 01:33:33 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /assando_sites/css/estilo.css
+Stack Trace:
+#0 C:\wamp\www\assando_sites\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-28 01:38:25 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /assando_sites/css/estilo.css
+Stack Trace:
+#0 C:\wamp\www\assando_sites\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-28 01:39:27 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /assando_sites/css/estilo.css
+Stack Trace:
+#0 C:\wamp\www\assando_sites\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-28 01:40:57 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /assando_sites/css/estilo.css
+Stack Trace:
+#0 C:\wamp\www\assando_sites\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-28 01:41:28 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /assando_sites/css/estilo.css
+Stack Trace:
+#0 C:\wamp\www\assando_sites\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-28 01:41:35 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /assando_sites/css/estilo.css
+Stack Trace:
+#0 C:\wamp\www\assando_sites\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-28 01:41:36 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /assando_sites/css/estilo.css
+Stack Trace:
+#0 C:\wamp\www\assando_sites\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-28 01:41:37 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /assando_sites/css/estilo.css
+Stack Trace:
+#0 C:\wamp\www\assando_sites\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-28 01:41:40 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /assando_sites/css/estilo.css
+Stack Trace:
+#0 C:\wamp\www\assando_sites\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-28 01:41:41 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /assando_sites/css/estilo.css
+Stack Trace:
+#0 C:\wamp\www\assando_sites\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-28 01:41:54 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /assando_sites/css/estilo.css
+Stack Trace:
+#0 C:\wamp\www\assando_sites\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-28 01:41:59 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /assando_sites/css/estilo.css
+Stack Trace:
+#0 C:\wamp\www\assando_sites\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-28 01:42:00 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /assando_sites/css/estilo.css
+Stack Trace:
+#0 C:\wamp\www\assando_sites\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-28 01:47:55 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /assando_sites/css/estilo.css
+Stack Trace:
+#0 C:\wamp\www\assando_sites\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-28 01:47:57 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /assando_sites/css/estilo.css
+Stack Trace:
+#0 C:\wamp\www\assando_sites\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-28 01:48:52 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /assando_sites/css/estilo.css
+Stack Trace:
+#0 C:\wamp\www\assando_sites\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-28 01:48:53 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /assando_sites/css/estilo.css
+Stack Trace:
+#0 C:\wamp\www\assando_sites\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-28 01:49:10 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /assando_sites/css/estilo.css
+Stack Trace:
+#0 C:\wamp\www\assando_sites\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-28 01:49:11 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /assando_sites/css/estilo.css
+Stack Trace:
+#0 C:\wamp\www\assando_sites\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-28 01:49:12 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /assando_sites/css/estilo.css
+Stack Trace:
+#0 C:\wamp\www\assando_sites\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-28 01:49:12 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /assando_sites/css/estilo.css
+Stack Trace:
+#0 C:\wamp\www\assando_sites\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-28 01:49:12 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /assando_sites/css/estilo.css
+Stack Trace:
+#0 C:\wamp\www\assando_sites\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-28 01:49:21 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /assando_sites/css/estilo.css
+Stack Trace:
+#0 C:\wamp\www\assando_sites\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-28 01:49:22 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /assando_sites/css/estilo.css
+Stack Trace:
+#0 C:\wamp\www\assando_sites\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-28 01:49:50 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /assando_sites/css/estilo.css
+Stack Trace:
+#0 C:\wamp\www\assando_sites\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-28 01:51:44 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /assando_sites/css/estilo.css
+Stack Trace:
+#0 C:\wamp\www\assando_sites\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-28 01:51:45 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /assando_sites/css/estilo.css
+Stack Trace:
+#0 C:\wamp\www\assando_sites\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-28 01:51:46 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /assando_sites/css/estilo.css
+Stack Trace:
+#0 C:\wamp\www\assando_sites\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-28 01:51:46 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /assando_sites/css/estilo.css
+Stack Trace:
+#0 C:\wamp\www\assando_sites\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-28 01:51:46 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /assando_sites/css/estilo.css
+Stack Trace:
+#0 C:\wamp\www\assando_sites\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-28 01:52:05 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /assando_sites/css/estilo.css
+Stack Trace:
+#0 C:\wamp\www\assando_sites\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-28 01:52:06 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /assando_sites/css/estilo.css
+Stack Trace:
+#0 C:\wamp\www\assando_sites\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-28 01:52:09 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /assando_sites/css/estilo.css
+Stack Trace:
+#0 C:\wamp\www\assando_sites\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-28 01:52:26 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /assando_sites/css/estilo.css
+Stack Trace:
+#0 C:\wamp\www\assando_sites\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-28 01:52:27 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /assando_sites/css/estilo.css
+Stack Trace:
+#0 C:\wamp\www\assando_sites\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-28 01:52:28 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /assando_sites/css/estilo.css
+Stack Trace:
+#0 C:\wamp\www\assando_sites\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-28 01:52:29 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /assando_sites/css/estilo.css
+Stack Trace:
+#0 C:\wamp\www\assando_sites\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-28 01:53:49 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /assando_sites/css/estilo.css
+Stack Trace:
+#0 C:\wamp\www\assando_sites\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-28 01:53:56 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /assando_sites/css/estilo.css
+Stack Trace:
+#0 C:\wamp\www\assando_sites\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-28 01:53:57 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /assando_sites/css/estilo.css
+Stack Trace:
+#0 C:\wamp\www\assando_sites\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-28 01:55:43 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /assando_sites/css/estilo.css
+Stack Trace:
+#0 C:\wamp\www\assando_sites\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-28 01:55:44 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /assando_sites/css/estilo.css
+Stack Trace:
+#0 C:\wamp\www\assando_sites\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-28 01:55:45 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /assando_sites/css/estilo.css
+Stack Trace:
+#0 C:\wamp\www\assando_sites\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-28 01:56:15 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /assando_sites/css/estilo.css
+Stack Trace:
+#0 C:\wamp\www\assando_sites\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-28 01:56:15 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /assando_sites/css/estilo.css
+Stack Trace:
+#0 C:\wamp\www\assando_sites\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-28 01:56:16 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /assando_sites/css/estilo.css
+Stack Trace:
+#0 C:\wamp\www\assando_sites\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-28 01:57:03 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /assando_sites/css/estilo.css
+Stack Trace:
+#0 C:\wamp\www\assando_sites\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-28 23:13:25 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /assando_sites/css/estilo.css
+Stack Trace:
+#0 C:\wamp\www\assando_sites\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-28 23:13:31 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /assando_sites/css/estilo.css
+Stack Trace:
+#0 C:\wamp\www\assando_sites\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-28 23:22:15 Error: [MissingControllerException] Controller class Blank.gifController could not be found.
+Exception Attributes: array (
+  'class' => 'Blank.gifController',
+  'plugin' => NULL,
+)
+Request URL: /assando_sites/blank.gif
+Stack Trace:
+#0 C:\wamp\www\assando_sites\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-28 23:22:34 Error: [MissingControllerException] Controller class Blank.gifController could not be found.
+Exception Attributes: array (
+  'class' => 'Blank.gifController',
+  'plugin' => NULL,
+)
+Request URL: /assando_sites/blank.gif
+Stack Trace:
+#0 C:\wamp\www\assando_sites\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-28 23:37:56 Error: Fatal Error (4): syntax error, unexpected 'echo' (T_ECHO), expecting ',' or ';' in [C:\wamp\www\assando_sites\app\View\Layouts\default.ctp, line 34]
+2013-11-28 23:37:56 Error: [FatalErrorException] syntax error, unexpected 'echo' (T_ECHO), expecting ',' or ';'
+Request URL: /assando_sites/como-chegar
+Stack Trace:
+#0 C:\wamp\www\assando_sites\lib\Cake\Error\ErrorHandler.php(205): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\wamp\www\ass...', 34)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\wamp\www\ass...', 34, Array)
+#2 C:\wamp\www\assando_sites\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\wamp\www\ass...', 34, Array)
+#3 C:\wamp\www\assando_sites\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-11-28 23:43:32 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /assando_sites/js/gmap3.mi.njs.js
+Stack Trace:
+#0 C:\wamp\www\assando_sites\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-28 23:43:56 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /assando_sites/js/gmap3.min.njs.js
+Stack Trace:
+#0 C:\wamp\www\assando_sites\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-29 00:11:03 Error: [MissingControllerException] Controller class Blank.gifController could not be found.
+Exception Attributes: array (
+  'class' => 'Blank.gifController',
+  'plugin' => NULL,
+)
+Request URL: /assando_sites/blank.gif
+Stack Trace:
+#0 C:\wamp\www\assando_sites\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-29 00:13:22 Error: [MissingControllerException] Controller class Blank.gifController could not be found.
+Exception Attributes: array (
+  'class' => 'Blank.gifController',
+  'plugin' => NULL,
+)
+Request URL: /assando_sites/blank.gif
+Stack Trace:
+#0 C:\wamp\www\assando_sites\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-29 00:14:12 Error: [MissingViewException] View file "C:\wamp\www\assando_sites\app\View\Pages\x.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'C:\\wamp\\www\\assando_sites\\app\\View\\Pages\\x.ctp',
+)
+Request URL: /assando_sites/home
+Stack Trace:
+#0 C:\wamp\www\assando_sites\lib\Cake\View\View.php(459): View->_getViewFileName('X')
+#1 C:\wamp\www\assando_sites\lib\Cake\Controller\Controller.php(952): View->render('X', NULL)
+#2 C:\wamp\www\assando_sites\app\Controller\PagesController.php(70): Controller->render('X')
+#3 [internal function]: PagesController->display('X')
+#4 C:\wamp\www\assando_sites\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 C:\wamp\www\assando_sites\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#6 C:\wamp\www\assando_sites\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#7 C:\wamp\www\assando_sites\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2013-11-29 00:14:57 Error: [MissingControllerException] Controller class Blank.gifController could not be found.
+Exception Attributes: array (
+  'class' => 'Blank.gifController',
+  'plugin' => NULL,
+)
+Request URL: /assando_sites/blank.gif
+Stack Trace:
+#0 C:\wamp\www\assando_sites\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-29 00:20:12 Error: [MissingControllerException] Controller class Blank.gifController could not be found.
+Exception Attributes: array (
+  'class' => 'Blank.gifController',
+  'plugin' => NULL,
+)
+Request URL: /assando_sites/blank.gif
+Stack Trace:
+#0 C:\wamp\www\assando_sites\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}

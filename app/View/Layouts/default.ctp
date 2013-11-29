@@ -28,8 +28,15 @@ $cakeDescription = __d('cake_dev', 'CakePHP: the rapid development php framework
 		<?php echo $title_for_layout; ?>
 	</title>
 	<?php
+		
+		//echo $this->Html->script('http://maps.google.com/maps/api/js?sensor=false&amp;language=en');
+		echo $this->Html->script('https://maps.googleapis.com/maps/api/js?key=AIzaSyCUNt1av3TcTCgTf76eR2tC_InucGAB7Ps&sensor=false');
+		echo $this->Html->script('jquery-1.10.2.js');
+		echo $this->Html->script('gmap3.min.js');
+		echo $this->Html->script('google-maps.js');
 		echo $this->Html->css('estilo');
-		echo $this->Html->css('cake.generic');
+		//echo $this->Html->css('cake.generic');
+		echo $this->Html->css('dropdown');
 		echo $this->fetch('meta');
 		echo $this->fetch('css');
 		echo $this->fetch('script');
@@ -38,23 +45,16 @@ $cakeDescription = __d('cake_dev', 'CakePHP: the rapid development php framework
 <body>
 	<div id="container">
 		<div id="header">
-			<h1>Assando Sites<?php //echo $this->Html->link($cakeDescription, 'http://cakephp.org'); ?></h1>
+			<h1>Primeiro Congresso X Brasileiro</h1>
 		</div>
 		<div id="content">
 
-			<?php echo $this->Session->flash(); ?>
-
+			<?php echo $this->element('menu',array('itens'=>array('home','evento','como chegar'))); ?>
+			<hr>
 			<?php echo $this->fetch('content'); ?>
 		</div>
 		<div id="footer">
-			<?php //echo $this->Html->link(
-			// 		$this->Html->image('cake.power.gif', array('alt' => $cakeDescription, 'border' => '0')),
-			// 		'http://www.cakephp.org/',
-			// 		array('target' => '_blank', 'escape' => false)
-			//	);
-			?>
 		</div>
 	</div>
-	<?php echo $this->element('sql_dump'); ?>
 </body>
 </html>

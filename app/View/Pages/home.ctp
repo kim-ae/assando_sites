@@ -1,2 +1,2 @@
 
-<div id="firstCss">My own home page :)</div>
+<div id="firstCss">Site do Congresso X Brasileiro</div>
